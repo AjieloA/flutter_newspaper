@@ -1,11 +1,14 @@
 # Miscellaneous
 *.class
-*.lock
 *.log
 *.pyc
 *.swp
 .buildlog/
 .history
+
+# JetBrains IDEs / Android Studio
+.idea/
+*.iml
 
 # Flutter repo-specific
 /bin/cache/
@@ -113,6 +116,9 @@ coverage/
 
 # Symbols
 app.*.symbols
+
+# pubspec.lock is intentionally committed (app, not library) for
+# reproducible dependency resolution.
 
 # Exceptions to above rules.
 !**/ios/**/default.mode1v3
